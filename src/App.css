@@ -1,38 +1,73 @@
-.App {
+/* Apply background color and full height */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff; /* Change page background to white */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Centering the heading */
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Container for the form with centered positioning */
+.container {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Styling form inputs */
+form input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* Styling buttons */
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007BFF;
   color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-.App-link {
-  color: #61dafb;
+button:hover {
+  background-color: #0056b3;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Error and Success Messages */
+.error {
+  color: red;
+  margin-top: 10px;
+}
+
+.success {
+  color: green;
+  margin-top: 10px;
+}
+
+/* Specific smaller button styling */
+.button {
+  width: 50px;
+  height: 30px;
+  margin-top: 15px;
+  display: inline-block;
 }

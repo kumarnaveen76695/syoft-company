@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .signup-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .info-section {
+    flex: 1;
+    background-color: #333;
+    color: white;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .info-section h2 {
+    margin-bottom: 20px;
+  }
+  
+  .info-section p {
+    margin: 10px 0;
+  }
+  
+  .login-link {
+    cursor: pointer;
+    color: #007BFF;
+    text-decoration: underline;
+  }
+  
+  .form-section {
+    flex: 1;
+    background-color: white;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+  }
+  
+  button {
+    
+    padding: 12px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    font-size: 16px;
+    
+    width: 100px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .error {
+    color: red;
+    text-align: center;
+  }
+  
+  .success {
+    color: green;
+    text-align: center;
+  }
+  
+  .terms-container {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .terms-container input[type="checkbox"] {
+    margin: 0; /* Remove margin */
+    margin-right: 5px; /* Small space between checkbox and text */
+  }
+  
+  .terms-container label {
+    margin: 0; /* Remove margin */
+    font-size: 14px;
+  }
+  
+  .terms-container a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  .terms-container a:hover {
+    text-decoration: underline;
+  }
+.para{
+    margin-left: 60vh;
+}  
